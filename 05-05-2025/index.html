@@ -16,65 +16,92 @@
       padding: 10px 20px;
     }
 
-    ol {
-      float: right;
-    }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+    padding: 10px 20px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  .container {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    margin-top: 5rem;
+  }
 
   </style>
 </head>
 <body>
 
-  <ul style="list-style-type: none;">
-    <li>Home</li>
-    <li>Contact</li>
-    <li>Profile</li>
-  </ul>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/contact">Contact</a></li>
+      <li><a href="/profile">Profile</a></li>
+    </ul>
+  </nav>
 
-  <table>
-    <tr>
-      <th colspan="2">Name</th>
-      <th>Roll no</th>
-    </tr>
-    <tr>
-      <td>Mohammad</td>
-      <td>Azeem</td>
-      <td>16</td>
-    </tr>
-    <tr>
-      <td>Mohammad</td>
-      <td>Azeem</td>
-      <td>16</td>
-    </tr>
-    <tr>
-      <td>Mohammad</td>
-      <td>Azeem</td>
-      <td>16</td>
-    </tr>
-    <tr>
-      <td>Mohammad</td>
-      <td>Azeem</td>
-      <td>16</td>
-    </tr>
-    <tr>
-      <td>Mohammad</td>
-      <td>Azeem</td>
-      <td>16</td>
-    </tr>
-  </table>
-
-  <table>
-    <tr>
-      <th>Name</th>
-      <td>MohammadAzeem</td>
-    </tr>
-    <tr>
-      <th rowspan="2">Roll no</th>
-      <td>16</td>
-    </tr>
-    <tr>
-      <td>16</td>
-    </tr>
-  </table>
+  <div class="container">
+    <table>
+      <tr>
+        <th colspan="2">Name</th>
+        <th>Roll no</th>
+      </tr>
+      <tr>
+        <td>Mohammad</td>
+        <td>Azeem</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>Mohammad</td>
+        <td>Azeem</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>Mohammad</td>
+        <td>Azeem</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>Mohammad</td>
+        <td>Azeem</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>Mohammad</td>
+        <td>Azeem</td>
+        <td>16</td>
+      </tr>
+    </table>
+  
+    <table>
+      <tr>
+        <th>Name</th>
+        <td>MohammadAzeem</td>
+      </tr>
+      <tr>
+        <th rowspan="2">Roll no</th>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>16</td>
+      </tr>
+    </table>
+  </div>
 
 
 </body>
