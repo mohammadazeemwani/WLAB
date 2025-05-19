@@ -1,0 +1,67 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+}
+
+h1 {
+  margin: 1rem auto;
+  width: fit-content;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex: 1;
+  margin: -1.5rem 0 0 0;
+}
+
+
+#table-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0.2rem;
+  width: 98vw;
+  margin: auto;
+}
+#table-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0.2rem;
+  width: 77vw;
+  margin: auto;
+}
+
+
+
+
+.cell {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  border-radius: 0.5rem;
+  padding: 0.5rem 0;
+}
+
+.cell span[data-label="atomicNum"] {
+  font-size: 0.7rem;
+}
+.cell span[data-label="label"] {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.cell span[data-label="name"] {
+  font-size: 0.7rem;
+}
+
+
+
+
+#attribution {
+  text-align: center;
+}
